@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri SMP Pintar | Foto & Video Kegiatan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header"><!-- ... sama ... --></header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Galeri Kegiatan</h1>
+            <p>Dokumentasi kegiatan dan prestasi SMP Pintar</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="academic">Akademik</button>
+                <button class="filter-btn" data-filter="sport">Olahraga</button>
+                <button class="filter-btn" data-filter="art">Seni & Budaya</button>
+                <button class="filter-btn" data-filter="religion">Keagamaan</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="academic">
+                    <img src="images/galeri1.jpg" alt="Kegiatan Belajar">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <h3>Pembelajaran Interaktif</h3>
+                        <p>Kegiatan belajar mengajar di laboratorium komputer</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="sport">
+                    <img src="images/galeri2.jpg" alt="Olahraga">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <h3>Lomba Futsal</h3>
+                        <p>Juara 1 Futsal tingkat kota</p>
+                    </div>
+                </div>
+                <!-- Tambahkan lebih banyak item galeri sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <footer class="footer"><!-- ... --></footer>
+    <button id="backToTop" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
