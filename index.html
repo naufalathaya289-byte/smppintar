@@ -3,26 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMP Pintar - Beranda</title>
+    <meta name="description" content="SMP Pintar - Sekolah Unggulan Berakhlak Mulia">
+    <meta name="keywords" content="sekolah, pendidikan, smp, unggulan">
+    <meta name="author" content="SMP Pintar">
+    <title>SMP Pintar | Sekolah Unggulan Berakhlak Mulia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>SMP PINTAR</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="profile.html">Profil</a>
-            <a href="contact.html">Kontak</a>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> (021) 1234-5678</span>
+                    <span><i class="fas fa-envelope"></i> info@smppintar.sch.id</span>
+                    <span><i class="fas fa-clock"></i> Senin - Jumat, 07:00 - 16:00</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo SMP Pintar" width="50">
+                    <h1>SMP <span>PINTAR</span></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Beranda</a></li>
+                    <li><a href="profile.html">Profil</a></li>
+                    <li><a href="akademik.html">Akademik</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <img src="images/gedung.jpg" alt="Gedung SMP Pintar" width="100%">
-        <h2>Selamat Datang</h2>
-        <p>SMP Pintar adalah sekolah unggulan berakhlak mulia.</p>
-    </main>
-    <footer>
-        <p>&copy; 2026 SMP Pintar</p>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Selamat Datang di</h2>
+                <h1>SMP <span>PINTAR</span></h1>
+                <p>Sekolah Unggulan yang Menghasilkan Generasi Cerdas, Beriman, dan Berkarakter</p>
+                <div class="hero-buttons">
+                    <a href="profile.html" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+                    <a href="kontak.html" class="btn btn-secondary">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistik Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3 class="counter" data-target="1500">0</h3>
+                <p>Siswa Aktif</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-chalkboard-user"></i>
+                <h3 class="counter" data-target="85">0</h3>
+                <p>Guru Profesional</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-trophy"></i>
+                <h3 class="counter" data-target="250">0</h3>
+                <p>Penghargaan</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-graduation-cap"></i>
+                <h3 class="counter" data-target="98">0</h3>
+                <p>Kelulusan (%)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mengapa Memilih <span>SMP Pintar</span>?</h2>
+                <p>Kami memiliki berbagai keunggulan yang menjadikan sekolah ini sebagai pilihan terbaik</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Kurikulum Terakreditasi A</h3>
+                    <p>Kurikulum nasional plus pengembangan karakter dan keterampilan abad 21</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Fasilitas Modern</h3>
+                    <p>Laboratorium komputer, perpustakaan digital, dan ruang kelas interaktif</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Program Bahasa</h3>
+                    <p>Pembelajaran Bahasa Inggris, Arab, dan Mandarin sejak dini</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Teknologi & Inovasi</h3>
+                    <p>Pembelajaran berbasis teknologi dengan platform digital modern</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Karakter & Religius</h3>
+                    <p>Program tahfidz, kegiatan sosial, dan pembinaan akhlak mulia</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Program Internasional</h3>
+                    <p>Kerjasama dengan sekolah mitra di luar negeri dan program pertukaran pelajar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pengumuman & Berita -->
+    <section class="announcements">
+        <div class="container">
+            <div class="section-title">
+                <h2>Berita & <span>Pengumuman</span></h2>
+                <p>Informasi terbaru seputar kegiatan dan prestasi SMP Pintar</p>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-date">
+                        <span class="day">15</span>
+                        <span class="month">Maret</span>
+                    </div>
+                    <h3>Penerimaan Peserta Didik Baru 2026/2027</h3>
+                    <p>Pendaftaran dibuka mulai 1 April 2026. Kuota terbatas untuk 5 rombel.</p>
+                    <a href="#" class="read-more">Baca Selengkapnya →</a>
+                </div>
+                <div class="news-card">
+                    <div class="news-date">
+                        <span class="day">10</span>
+                        <span class="month">Maret</span>
+                    </div>
+                    <h3>SMP Pintar Raih Juara Umum OSN Tingkat Kota</h3>
+                    <p>Berhasil meraih 3 medali emas, 2 perak, dan 1 perunggu.</p>
+                    <a href="#" class="read-more">Baca Selengkapnya →</a>
+                </div>
+                <div class="news-card">
+                    <div class="news-date">
+                        <span class="day">5</span>
+                        <span class="month">Maret</span>
+                    </div>
+                    <h3>Kunjungan Studi Banding ke Singapore</h3>
+                    <p>Siswa kelas 9 mengadakan kunjungan ke sekolah mitra di Singapura.</p>
+                    <a href="#" class="read-more">Baca Selengkapnya →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Bergabung Menjadi Bagian dari Keluarga Besar SMP Pintar</h2>
+            <p>Wujudkan masa depan cerah putra-putri Anda bersama kami</p>
+            <a href="kontak.html" class="btn btn-primary">Hubungi Kami Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Logo" width="60">
+                        <h3>SMP <span>PINTAR</span></h3>
+                    </div>
+                    <p>Sekolah unggulan yang berkomitmen mencetak generasi cerdas, beriman, dan berakhlak mulia.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="profile.html">Profil</a></li>
+                        <li><a href="akademik.html">Akademik</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak Kami</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. Pendidikan No. 45, Kota Pelajar</li>
+                        <li><i class="fas fa-phone"></i> (021) 1234-5678</li>
+                        <li><i class="fas fa-envelope"></i> info@smppintar.sch.id</li>
+                        <li><i class="fas fa-clock"></i> Senin-Jumat: 07:00-16:00</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan informasi terbaru dari kami</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SMP Pintar. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <script src="script.js"></script>
 </body>
 </html>
